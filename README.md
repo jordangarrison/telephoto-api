@@ -1,4 +1,3 @@
-
 ## Description
 
 Telephoto API is the backend service for the Telephoto secure link photo sharing platform.
@@ -21,6 +20,8 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+
+Once you run the app the API Swagger docs are available at http://localhost:3000/docs
 
 ## Test
 
