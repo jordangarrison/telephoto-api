@@ -20,6 +20,7 @@ export class User {
 	@PrimaryGeneratedColumn()
 	id: number
 
+	@ApiProperty()
 	@Column({ unique: true })
 	username: string
 

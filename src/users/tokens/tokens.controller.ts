@@ -14,10 +14,6 @@ import { ApiTags } from '@nestjs/swagger'
 			field: 'id',
 			type: 'number',
 			primary: true
-		},
-		token: {
-			field: 'token',
-			type: 'uuid'
 		}
 	}
 })
